@@ -1,0 +1,137 @@
+/********  todo1 styles *******/
+
+.container{
+	height: 500px;
+	width:400px;
+	margin: 10% auto auto;
+
+}
+
+hr{
+	height: 1px;
+	width: 100%;
+	background-color: black;
+}
+
+p label{
+	font-size: 20px;
+	font-weight: bold;
+
+}
+
+p{
+	
+}
+
+#new-task{
+	outline: none;
+	height: 25px;
+	width: 70%;
+	padding: 5px 10px;
+	border-radius: 5px;
+	border: none;
+	border: 1px solid grey;
+	margin: 20px 45px 20px 0px;
+}
+
+p button{
+	cursor: pointer;
+	font-size: 14px;
+	color: grey;
+	display: inline-block;
+}
+
+
+#incomplete-tasks{
+	position: relative;
+	
+}
+
+#incomplete-tasks input[type=text]{
+	margin: 30px 0px;
+	
+	
+}
+
+li{
+	position: relative;
+	list-style: none;
+}
+
+
+input[type=checkbox]{
+
+	border: 1px solid blue;
+	border-radius: 1px;
+	font-size: 30px;
+	/*margin: 30px 20px 30px 0px;*/
+
+}
+
+input[type=text]{
+	outline: none;
+	height: 25px;
+	width: 50%;
+	padding: 5px 10px;
+	border-radius: 5px;
+	border: none;
+	border: 1px solid grey;
+	/*margin: 20px -155px 20px -10px;*/
+}
+
+
+.edit{
+	cursor: pointer;
+	/*position: absolute;*/
+	margin: 0px 10px;
+	right: 60px;
+	top: 30px;
+	font-size: 14px;
+	color: grey;
+	display: inline-block;
+}
+
+
+
+
+
+.delete{
+	cursor: pointer;
+	/*position: absolute;*/
+	top: 30px;
+	right: 10px;
+	font-size: 14px;
+	color: grey;
+	display: inline-block;
+}
+
+
+
+
+
+
+#completed-tasks{
+	
+}
+
+#completed-tasks input[type=text]{
+	display: none;
+}
+
+#completed-tasks label{
+	text-decoration: line-through;
+}
+
+/* Edit Task */
+ul li input[type=text] {
+  display:none;
+}
+
+
+ul li.editMode input[type=text] {
+  display:block;
+}
+
+ul li.editMode label {
+  display:none;
+}

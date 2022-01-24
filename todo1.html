@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>to do list</title>
+	<link rel="stylesheet" type="text/css" href="todo1.css">
+	<meta charset="utf-8">
+</head>
+<body>
+
+	<div class="container">
+
+		<!---------------- ADD ITEM SECTION ------------>
+
+		<p>
+			<label for="new-task">ADD ITEM</label><hr><input id="new-task" type="text"><button>Add</button>
+		</p>
+
+		<h3>TODO</h3>
+		<hr>
+
+		<!---------------- INCOMPLETE TASKS SECTION ------------>
+
+		<ul id="incomplete-tasks">
+			<li>
+				<input type="checkbox"><label>Pay Bills</label>
+				<button class="edit">Edit</button>
+				<button class="delete">Delete</button>
+				
+			</li>
+			<li class="editMode"><input type="checkbox">
+				<label>Go Shopping</label>
+				<input type="text" value="Go Shopping">
+				<button class="edit">Edit</button>
+				<button class="delete">Delete</button>
+			</li>
+
+			
+			
+		</ul>
+
+
+		<!---------------- COMPLETE TASKS SECTION ------------>
+
+
+		<h3>COMPLETED</h3>
+		<hr>
+		<ul id="completed-tasks">
+			<li>
+				<input type="checkbox" checked>
+				<label> See the Doctor</label>
+				
+				<button class="edit">Edit</button>
+				<button class="delete">Delete</button>
+			</li>
+			
+		</ul>
+		
+	</div>
+
+	<script type="text/javascript" src="todo1.js"></script>
+
+
+
+</body>
+</html>
